@@ -1,1 +1,131 @@
-/* Your styles here */
+#layout {
+  max-width: 1440px;
+  margin: auto;
+  background-color: #e9edee;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box1 {
+  background-color: #222f3f;
+  height: 3.5em;
+}
+.logo {
+  width: 7em;
+  margin: 0.3em;
+}
+
+.box2 {
+  background-color: #374759;
+  height: 2em;
+  padding: 0.3em;
+}
+
+.box2 a,
+.box3 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  padding: 0.5em;
+}
+
+.box3 {
+  background-color: #f56600;
+  height: 2em;
+  margin: 2.5%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.box4 {
+  background-image: url(../images/3.png);
+  text-align: center;
+  height: 12em;
+  margin: 2.5%;
+  background-size: contain;
+}
+.firstback {
+  width: 100%;
+}
+
+.box4 h1,
+.box4 h2 {
+  color: white;
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.box4 h1 {
+  padding: 1.5em;
+}
+
+.box5 {
+  height: 25em;
+  margin: 2.5%;
+  background-color: white;
+}
+
+.box5 p,
+.box6 p,
+.box9 p {
+  display: inline-block;
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+.pshop {
+  font-weight: bold;
+  color: #377d81;
+  font-size: 0.8em;
+}
+
+.images {
+  text-align: center;
+}
+
+.images img {
+  text-align: center;
+  width: 250px;
+  height: 270px;
+  border-radius: 8%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  margin: 1em;
+}
+
+.box6 img {
+  margin: 2.5%;
+  width: 95%;
+}
+
+.box6 {
+  text-align: center;
+}
+
+.box9 {
+  text-align: center;
+  background-color: #374759;
+  height: 2em;
+  padding: 0.3em;
+}
+
+.box9 a {
+  text-decoration: underline;
+  color: white;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.box10 {
+  text-align: center;
+  background-color: #222f3f;
+  height: 10em;
+}
+
+.box10 img {
+  width: 10em;
+  padding: 3.5em;
+}
